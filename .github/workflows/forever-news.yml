@@ -1,0 +1,40 @@
+name: WoW Forever news
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"   # every 10 minutes (GitHub often starts scheduled runs a few minutes late)
+  workflow_dispatch:          # adds a "Run workflow" button for testing
+
+permissions:
+  contents: write             # lets the run commit state.json (the list of entries already posted)
+
+concurrency:
+  group: forever-news         # never two runs at once, so nothing is posted twice
+  cancel-in-progress: false
+
+jobs:
+  post-news:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Post new entries to Discord
+        run: python3 forever_news.py
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          DISCORD_BLUE_WEBHOOK_URL: ${{ secrets.DISCORD_BLUE_WEBHOOK_URL }}
+          BOT_NAME: WoW Forever News
+          AVATAR_URL: ""
+
+      - name: Save what was posted
+        if: ${{ !cancelled() }}
+        run: |
+          if [ -n "$(git status --porcelain -- state.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add state.json
+            git commit --quiet -m "Update posted-news state"
+            git pull --rebase --quiet
+            git push --quiet
+          fi

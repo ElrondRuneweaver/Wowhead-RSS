@@ -4,6 +4,8 @@
   "forum|actions for blackmaw hold abuse - 17 november": "2026-11-17T12:38:30-06:00",
   "forum|actions for blackmaw hold abuse - november 17": "2026-11-17T12:38:11-06:00",
   "forum|another exploit": "2026-11-23T10:26:25-06:00",
+  "forum|balance druid adjustments - 25 november": "2026-11-25T12:32:19-06:00",
+  "forum|balance druid adjustments - november 25": "2026-11-25T12:32:04-06:00",
   "forum|bugged/missing shaman totems since monday's server chaos": "2026-11-10T19:10:36-06:00",
   "forum|class tuning incoming - 10 november": "2026-11-06T15:12:54-06:00",
   "forum|class tuning incoming - november 10": "2026-11-06T15:11:39-06:00",
@@ -50,6 +52,7 @@
   "news|watch the wow: forever podcast \u2013 the lore episode": "2026-11-12T11:15:00-06:00",
   "news|watch the wow: forever short story, \u201ccost of honor\u201d": "2026-11-13T12:00:00-06:00",
   "news|world of warcraft: forever now live!": "2026-11-04T17:12:13-06:00",
+  "news|wow celebration pass, wow forever's \"al'aketh rising\" comic, december trading post, and more in wow weekly": "2026-11-25T12:15:00-06:00",
   "news|wow weekly highlights the wow: forever podcast, a new short story, this week\u2019s videos, and more!": "2026-11-13T12:01:00-06:00",
   "news|wow: forever class design, echoes of the worldcore, and more in wow weekly": "2026-11-20T12:00:00-06:00",
   "news|wow: forever hotfixes - november 11, 2026": "2026-11-11T18:53:01-06:00",
@@ -61,6 +64,7 @@
   "https://www.wowhead.com/forever/blue-tracker/news/eu/24315280": "2026-11-24T20:00:31+00:00",
   "https://www.wowhead.com/forever/blue-tracker/news/eu/24315281": "2026-11-12T23:16:56+00:00",
   "https://www.wowhead.com/forever/blue-tracker/news/eu/24315643": "2026-11-24T20:00:31+00:00",
+  "https://www.wowhead.com/forever/blue-tracker/news/eu/24315647": "2026-11-25T19:36:35+00:00",
   "https://www.wowhead.com/forever/blue-tracker/news/eu/24315820": "2026-11-12T23:16:56+00:00",
   "https://www.wowhead.com/forever/blue-tracker/news/eu/24315821": "2026-11-12T23:16:56+00:00",
   "https://www.wowhead.com/forever/blue-tracker/news/eu/24316094": "2026-11-12T23:16:56+00:00",
@@ -75,6 +79,7 @@
   "https://www.wowhead.com/forever/blue-tracker/news/us/24315205": "2026-11-13T18:16:37+00:00",
   "https://www.wowhead.com/forever/blue-tracker/news/us/24315281": "2026-11-12T23:16:56+00:00",
   "https://www.wowhead.com/forever/blue-tracker/news/us/24315643": "2026-11-24T20:00:31+00:00",
+  "https://www.wowhead.com/forever/blue-tracker/news/us/24315647": "2026-11-25T19:36:35+00:00",
   "https://www.wowhead.com/forever/blue-tracker/news/us/24315820": "2026-11-12T23:16:56+00:00",
   "https://www.wowhead.com/forever/blue-tracker/news/us/24315821": "2026-11-12T23:16:56+00:00",
   "https://www.wowhead.com/forever/blue-tracker/news/us/24316094": "2026-11-12T23:16:56+00:00",
@@ -104,6 +109,7 @@
   "https://www.wowhead.com/forever/blue-tracker/topic/eu/643759": "2026-11-17T18:54:38+00:00",
   "https://www.wowhead.com/forever/blue-tracker/topic/eu/644354": "2026-11-19T17:42:00+00:00",
   "https://www.wowhead.com/forever/blue-tracker/topic/eu/645296": "2026-11-23T17:08:53+00:00",
+  "https://www.wowhead.com/forever/blue-tracker/topic/eu/645939": "2026-11-25T19:36:35+00:00",
   "https://www.wowhead.com/forever/blue-tracker/topic/us/2360696": "2026-11-12T23:16:56+00:00",
   "https://www.wowhead.com/forever/blue-tracker/topic/us/2394974": "2026-11-12T23:16:56+00:00",
   "https://www.wowhead.com/forever/blue-tracker/topic/us/2396008": "2026-11-12T23:16:56+00:00",
@@ -131,6 +137,7 @@
   "https://www.wowhead.com/forever/blue-tracker/topic/us/2419757": "2026-11-17T18:54:38+00:00",
   "https://www.wowhead.com/forever/blue-tracker/topic/us/2422535": "2026-11-19T17:42:00+00:00",
   "https://www.wowhead.com/forever/blue-tracker/topic/us/2426335": "2026-11-23T17:08:53+00:00",
+  "https://www.wowhead.com/forever/blue-tracker/topic/us/2429007": "2026-11-25T19:36:35+00:00",
   "https://www.wowhead.com/news=383145": "2026-11-12T23:16:56+00:00",
   "https://www.wowhead.com/news=383781": "2026-11-12T23:16:56+00:00",
   "https://www.wowhead.com/news=383792": "2026-11-12T23:16:56+00:00",
@@ -239,6 +246,7 @@
   "https://www.wowhead.com/news=383980": "2026-11-24T18:57:53+00:00",
   "https://www.wowhead.com/news=383986": "2026-11-25T16:50:38+00:00",
   "https://www.wowhead.com/news=383988": "2026-11-25T17:45:32+00:00",
-  "https://www.wowhead.com/news=383991": "2026-11-25T18:33:32+00:00"
+  "https://www.wowhead.com/news=383991": "2026-11-25T18:33:32+00:00",
+  "https://www.wowhead.com/news=383992": "2026-11-25T19:36:35+00:00"
  }
 }
